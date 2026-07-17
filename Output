@@ -1,0 +1,59 @@
+======= Main Menu =======
+1. Classify All Stations
+2. Add / Update Station
+3. Log Monitoring Reading
+4. Trend Analysis
+5. Export / Load Data
+0. Exit
+=========================
+
+#1
+
+#Output
+River Information:
+Station                        State              WQI Status              
+---------------------------------------------------------------------------
+Sungai Klang KL                Selangor          68.3 Moderately Polluted 
+Sungai Muar                    Johor             54.1 Moderately Polluted 
+Sungai Kedah                   Kedah             82.5 Slightly Polluted   
+Sungai Singapore               Singapore         45.0 Polluted   
+
+#2
+Enter your choice: 2
+Enter station name: Sungai Klang KL 
+Enter state:  Selangor 
+Enter WQI: 4
+
+#Output
+Station Sungai Klang KL updated with new WQI: 4.0.
+
+#3
+Enter your choice: 3
+Enter station name: Sungai Klang KL  
+
+#output
+Reading logged for Sungai Klang KL at 2026-07-17 17:57:27.
+[!] ALERT: Sungai Singapore in Singapore is Polluted (WQI: 45.0).
+
+Monitoring Log:
+2026-07-17 17:57:27 - Sungai Klang KL: WQI 68.3
+
+#4
+Output
+--- Class Distribution ---
+Class I: 0 station(s)
+Class II: 1 station(s)
+Class III: 2 station(s)
+Class IV: 1 station(s)
+Class V: 0 station(s)
+
+#5
+Output
+--- Export / Load Data ---
+1. Export Report
+2. Save station data to file
+3. Load station data from file
+0. Back to main menu
+
+#6
+Exiting the River Quality Monitoring System.
